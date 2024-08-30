@@ -13,6 +13,15 @@ public class SinglyLinkedList {
           this.next = null;
        }
     }
+
+
+    public void insertFirst(int value){
+        ListNode newNode = new ListNode(value);
+        newNode.next = head;
+        head = newNode;
+
+
+    }
  
     public void display() {
        ListNode current = head;
@@ -57,6 +66,12 @@ public class SinglyLinkedList {
         second.next  = third;
         third.next = fourth;
         fourth.next = fifth;
+
+        sl.insertFirst(5);
+        sl.insertFirst(4);
+        sl.insertFirst(3);
+        sl.insertFirst(2);
+         sl.insertFirst(1);
 
         sl.display();
         System.out.println("length of singly linked list is " + sl.length());
