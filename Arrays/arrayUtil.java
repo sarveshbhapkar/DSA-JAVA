@@ -1,3 +1,4 @@
+package Arrays;
 public class arrayUtil {
     
     //method for printing elements of an array

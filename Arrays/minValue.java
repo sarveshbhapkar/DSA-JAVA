@@ -1,3 +1,4 @@
+package Arrays;
 public class minValue {
     
     public int minVal(int [] arr){

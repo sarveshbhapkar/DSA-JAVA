@@ -1,3 +1,4 @@
+package Arrays;
 public class moveZero {
     
     //algorithm to move zeros to the end

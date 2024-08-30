@@ -1,3 +1,4 @@
+package Arrays;
 public class palindromeornot {
     
     public boolean palornot(String word){

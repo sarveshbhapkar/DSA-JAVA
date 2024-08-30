@@ -1,3 +1,4 @@
+package Arrays;
 public class findMin {
     //for finding minimum number in the array
     public int findMinimum(int [] arr){

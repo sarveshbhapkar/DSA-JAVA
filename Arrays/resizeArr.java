@@ -1,3 +1,4 @@
+package Arrays;
 public class resizeArr {
     
     public void printarr(int [] original){
